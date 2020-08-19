@@ -1,0 +1,143 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/color1"
+
+    tools:context=".MainActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:orientation="vertical"
+        android:paddingLeft="20dp"
+        android:paddingRight="20dp"
+        > </LinearLayout>
+
+    <TextView
+
+        android:id="@+id/textViewInput1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="6dp"
+        android:padding="20dp"
+        android:textSize="40dp"
+        android:text="회원가입"
+        android:fontFamily="@font/font1"
+        android:gravity="center"/>
+
+
+    <EditText
+        android:id="@+id/edtinput_id1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:hint="@string/input_id"
+        android:gravity="center"
+        android:fontFamily="@font/font2"
+        android:layout_gravity="center"
+        android:textSize="25dp" />
+
+    <EditText
+        android:id="@+id/edtinput_pwd1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:hint="@string/input_password"
+        android:gravity="center"
+        android:fontFamily="@font/font2"
+        android:layout_gravity="center"
+        android:inputType="textPassword"
+        android:textSize="25dp"/>
+
+    <EditText
+        android:id="@+id/edtinput_pwdcheck1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:hint="@string/input_passwordcheck"
+        android:gravity="center"
+        android:fontFamily="@font/font2"
+        android:layout_gravity="center"
+        android:inputType="textPassword"
+        android:textSize="25dp"/>
+
+    <EditText
+        android:id="@+id/edtinput_name1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:hint="@string/input_name"
+        android:gravity="center"
+        android:fontFamily="@font/font2"
+        android:layout_gravity="center"
+        android:textSize="25dp"/>
+
+
+    <EditText
+        android:id="@+id/edtinput_birthdate1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:hint="@string/input_birthdate"
+        android:gravity="center"
+        android:fontFamily="@font/font2"
+        android:layout_gravity="center"
+        android:textSize="25dp"/>
+
+    <RadioGroup
+        android:id="@+id/radioGroup1"
+        android:orientation="horizontal"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+       >
+
+        <RadioButton
+            android:layout_weight="1"
+            android:text="남성"
+            android:id="@+id/rg_btnmale"
+            android:fontFamily="@font/font2"
+            android:layout_width="80dp"
+            android:layout_height="wrap_content"/>
+
+        <RadioButton
+            android:layout_weight="1"
+            android:text="여성"
+            android:fontFamily="@font/font2"
+            android:id="@+id/rg_btnfemale"
+            android:layout_width="80dp"
+            android:layout_height="wrap_content"/>
+
+    </RadioGroup>
+
+    <EditText
+        android:id="@+id/edtinput_number1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:hint="@string/input_number"
+        android:gravity="center"
+        android:fontFamily="@font/font2"
+        android:layout_gravity="center"
+        android:textSize="25dp"/>
+
+    <Button
+        android:id="@+id/btninput_submit1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="15dp"
+        android:padding="10dp"
+        android:text="@string/btn_submit"
+        android:layout_gravity="center"
+        android:fontFamily="@font/font2"
+        android:background="#BCA9F5"
+        android:textSize="30dp"/>
+
+
+
+</LinearLayout>
